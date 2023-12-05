@@ -6,7 +6,7 @@ int part_one(const std::string &input) {
     int part_num_sum = 0;
     int part_num_buf = 0;
     int part_num_size = 0;
-    const uint len = input.length();
+    const int len = input.length();
     const int width = input.find_first_of('\n') + 1;
     const int height = len / width;
     std::unordered_map<int, bool> m;
